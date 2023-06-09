@@ -16,7 +16,7 @@ const Item = (props) => {
   }
 
   return (
-        <div class="card" style={{width:'18rem'}}>
+        <div class="card" style={{width:'18rem',margin:'5px'}}>
             <h5 class="card-title" style={{textAlign:'center'}}>{props.product.title}</h5>
             <img src={props.product.imageUrl} class="card-img-top" alt="..." />
             <div class="card-body">

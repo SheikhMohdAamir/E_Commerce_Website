@@ -4,7 +4,6 @@ import Background from './HomeComponents/Background'
 import ItemList from './HomeComponents/Itemlist'
 import CartProvider from './ContextAPI/CartProvider'
 import Footer from './HomeComponents/Footer'
-import { Link } from 'react-router-dom'
 
 const Home = () => {
     const products = [

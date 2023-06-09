@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () => {
+const AboutFooter = () => {
   
   let footerStyle={
     position:'absolute',
@@ -18,4 +18,4 @@ const Footer = () => {
   )
 }
 
-export default Footer;
+export default AboutFooter;
